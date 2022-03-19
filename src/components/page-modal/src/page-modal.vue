@@ -30,7 +30,7 @@ interface Props {
   modalConfig: InstanceType<typeof Object>
   defaultInfo?: InstanceType<typeof Object>
   otherInfo?: InstanceType<typeof Object>
-  pageName: InstanceType<typeof String>
+  pageName: string
   title?: string
 }
 // withDefaults 给默认值
