@@ -19,14 +19,14 @@
     </el-row>
     <el-row :gutter="10" class="content-row">
       <el-col :span="12">
-        <hy-card title="分类商品的销量">
+        <y-card title="分类商品的销量">
           <line-echart v-bind="categoryGoodsSale"></line-echart>
-        </hy-card>
+        </y-card>
       </el-col>
       <el-col :span="12">
-        <hy-card title="分类商品的收藏">
+        <y-card title="分类商品的收藏">
           <bar-echart v-bind="categoryGoodsFavor"></bar-echart>
-        </hy-card>
+        </y-card>
       </el-col>
     </el-row>
   </div>
