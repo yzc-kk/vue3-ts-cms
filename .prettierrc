@@ -3,6 +3,8 @@
   "tabWidth": 2,
   "printWidth": 80,
   "singleQuote": true,
-  "trailingComma": "es5",
-  "semi": false
+  "trailingComma": "none",
+  "semi": false,
+  "wrapAttributes": false,
+  "sortAttributes": false
 }
